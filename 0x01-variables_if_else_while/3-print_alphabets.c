@@ -1,20 +1,18 @@
 #include <stdio.h>
 
-/*
-*generate a random number af said if negative or positive
-*/
-#include <stdio.h>
-
-int main (void) 
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
 	char ch;
 
-	for(ch = 'a' ; ch <= 'z' ; ch++) {
+	for (ch = 'a'; ch <= 'z'; ch++)
 		putchar(ch);
-	}
-
-	for(ch = 'A' ; ch <= 'Z' ; ch++) {
+	for (ch = 'A'; ch <= 'Z'; ch++)
 		putchar(ch);
-       }
-	return(0);
+	putchar('\n');
+	return (0);
 }

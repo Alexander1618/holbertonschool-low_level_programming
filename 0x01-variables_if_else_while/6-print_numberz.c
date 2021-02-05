@@ -1,17 +1,16 @@
 #include <stdio.h>
 
-/*
-*generate a random number af said if negative or positive
-*/
-int main (void) 
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
 	int i;
 
 	for (i = 48; i < 57; i++)
-	{ 
-	   	      
-		putchar(i);
-	}
-	putchar('\n');
-	return(0);
+	putchar(i);
+putchar('\n');
+	return (0);
 }

@@ -1,18 +1,16 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
-/*
-*generate a random number af said if negative or positive
-*/
-#include <stdio.h>
-
-int main () {
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
 	char ch;
 
-	for(ch = 'z' ; ch >= 'a' ; ch--) {
+	for (ch = 'z'; ch >= 'a'; ch--)
 		putchar(ch);
-	}
 	putchar('\n');
-	return(0);
+	return (0);
 }

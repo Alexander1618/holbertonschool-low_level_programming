@@ -1,16 +1,15 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
-/*
-*generate a random number af said if negative or positive
-*/
-#include <stdio.h>
-
-int main(void) {
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
 	int i;
 
-	for (i = o; i < 10; i++)
-		prinf(i);
-       return (0);
+	for (i = 0; i < 10; i++)
+		printf("%d", i);
+	return (0);
 }

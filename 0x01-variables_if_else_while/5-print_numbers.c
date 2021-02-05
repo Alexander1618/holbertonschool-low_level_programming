@@ -7,12 +7,10 @@
 */
 #include <stdio.h>
 
-int main(void)
-{
-	char ch;
+int main(void) {
+	int i;
 
-	for (ch = 'a' ; ch <= 'z' ; ch++)
-		putchar(ch);
-	putchar('\n');
-	return (0);
+	for (i = o; i < 10; i++)
+		prinf(i);
+       return (0);
 }
